@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Api-paises/static/css/main.bd82aa6e.chunk.css",
+    "main.js": "/Api-paises/static/js/main.adb0d945.chunk.js",
+    "main.js.map": "/Api-paises/static/js/main.adb0d945.chunk.js.map",
+    "runtime-main.js": "/Api-paises/static/js/runtime-main.cb41b4ed.js",
+    "runtime-main.js.map": "/Api-paises/static/js/runtime-main.cb41b4ed.js.map",
+    "static/js/2.e2781573.chunk.js": "/Api-paises/static/js/2.e2781573.chunk.js",
+    "static/js/2.e2781573.chunk.js.map": "/Api-paises/static/js/2.e2781573.chunk.js.map",
+    "static/js/3.5ae9647a.chunk.js": "/Api-paises/static/js/3.5ae9647a.chunk.js",
+    "static/js/3.5ae9647a.chunk.js.map": "/Api-paises/static/js/3.5ae9647a.chunk.js.map",
+    "index.html": "/Api-paises/index.html",
+    "static/css/main.bd82aa6e.chunk.css.map": "/Api-paises/static/css/main.bd82aa6e.chunk.css.map",
+    "static/js/2.e2781573.chunk.js.LICENSE.txt": "/Api-paises/static/js/2.e2781573.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cb41b4ed.js",
+    "static/js/2.e2781573.chunk.js",
+    "static/css/main.bd82aa6e.chunk.css",
+    "static/js/main.adb0d945.chunk.js"
+  ]
+}
