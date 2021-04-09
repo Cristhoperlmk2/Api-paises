@@ -14,7 +14,7 @@ function App() {
     <Provider store={store}>
       <div className="App">
         <NavBar />
-        <Route exact path="/" component={Paises} />
+        <Route exact path="/Api-paises" component={Paises} />
         <Route path="/detalle/:name" component={Detalle} />
         <Route path="/region/:region" component={Region} />
       </div>

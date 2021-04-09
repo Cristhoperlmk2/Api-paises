@@ -17,7 +17,7 @@ export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container-fluid">
-        <NavLink to="/" className="navbar-brand">
+        <NavLink to="/Api-paises" className="navbar-brand">
           Paises
         </NavLink>
         <button
@@ -74,7 +74,7 @@ export default function NavBar() {
               </ul>
             </li>
           </ul>
-          <form className="d-flex" >
+          <form className="d-flex">
             <input
               className="form-control me-2"
               type="search"
@@ -84,10 +84,7 @@ export default function NavBar() {
               value={title}
               onChange={handleChange}
             />
-            <button
-              className="btn btn-outline-success"
-              onClick={handleClick}
-            >
+            <button className="btn btn-outline-success" onClick={handleClick}>
               <NavLink className={s.link2} to={`/detalle/${title}`}>
                 Search
               </NavLink>
