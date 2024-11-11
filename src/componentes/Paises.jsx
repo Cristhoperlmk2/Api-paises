@@ -8,7 +8,7 @@ function Paises() {
     const dispactch = useDispatch()
     const paises = useSelector((state)=> state.regiones)
     useEffect(()=>{  
-            fetch(`https://restcountries.com/v2/all`)
+            fetch(`https://restcountries.com/v3.1/all`)
             .then(data=> data.json())
             .then(respuesta =>{
                 dispactch({
