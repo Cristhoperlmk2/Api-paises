@@ -8,7 +8,7 @@ function Regiones(props) {
   const regiones = useSelector((state) => state.region);
   const region = props.match.params.region
   useEffect(() => {
-    fetch(`https://restcountries.com/v2/region/${region}${region}`)
+    fetch(`https://restcountries.com/v3.1/region/${region}`)
       .then((data) => data.json())
       .then((respuesta) => {
         dispactch({
