@@ -9,7 +9,7 @@ export default function Detalle(props){
     const namePais = props.match.params.name;
     
     useEffect(()=>{
-        fetch(`https://restcountries.eu/rest/v2/name/${namePais}`)
+        fetch(`https://restcountries.com/v3.1/name/${namePais}`)
         .then(data => data.json())
         .then(respues =>{
             dispactch({
